@@ -7,8 +7,35 @@
     <title>Vite App</title>
     <link rel="stylesheet" href="/src/css/app.css">
   </head>
-  <body class="bg-red-500">
-   
+  <body class="w-full h-screen grid grid-cols-12">
+    <section id="image" class="col-span-7 bg-blue-500 flex flex-col items-center justify-center rounded-md">
+      
+      <img class="w-96 h-[500px] rounded-xl object-cover object-center" src="public/Screenshot 2024-02-01 131431.png" alt="jobs">
+    
+    
+  </section>
+  <section class="col-span-5  rounded-md relative">
+      <p class="text-xs text-gray-400 text-center mt-5">how contact me? k2939917amir@gmail.com</p>
+      <p class="text-xs text-gray-400 text-center ">or</p>
+      <p class="text-xs text-gray-400 text-center ">amirdev2006 in Github</p>
+      <h1 class="text-blue-500 text-center text-2xl font-bold mt-7">Hello, Welcom Back</h1>
+
+      <form class="" action="login">
+        <label class="text-slate-700 text-sm absolute left-32 mt-8" for="name">full name</label>
+        <input placeholder="Inter your full name" class="h-8 w-72 border text-xs p-2 shadow-lg shadow-gray-300 border-blue-500 rounded-xl absolute left-32 mt-16" type="text" name="" id="name">
+
+        <label class="text-slate-700 text-sm absolute left-32 mt-28" for="name">email</label>
+        <input placeholder="Inter your email" class="h-8 w-72 border shadow-lg shadow-gray-300 p-2 text-xs border-blue-500 rounded-xl absolute left-32 mt-36" type="text" name="" id="">
+        
+        <label class="text-slate-700 text-sm absolute left-32 mt-48" for="name">password</label>
+        <input placeholder="Inter your password" class="h-8 w-72 border shadow-lg shadow-gray-300 p-2 text-xs border-blue-500 rounded-xl absolute left-32 mt-56" type="text" name="" id="">
+        <a id="forgot" class="text-sm absolute left-60 bottom-56 text-blue-500 hover:text-blue-700 transition-all duration-300" href="">forgot password?</a>
+      </form>
+
+        <button  id="btn-login" class="w-64 h-8 bg-blue-500 text-lg text-white  rounded-xl absolute bottom-36 left-36 hover:bg-white hover:text-blue-600 hover:border hover:border-blue-600 transition-all duration-500">Login</button>
+        <button id="btn-login-google" class="w-64 h-8 bg-white border border-gray-400 text-gray-500 text-sm absolute left-36 bottom-24 rounded-lg hover:bg-blue-400 hover:text-white transition-all duration-500">sign in with google</button>
+        <img class="w-6 h-6 absolute left-44 bottom-24" src="public/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png" alt="">
+  </section>
     <script type="module" src="/src/js/app.js"></script>
   </body>
 </html>
