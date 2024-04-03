@@ -26,3 +26,5 @@ function buttongoogle()
 {
     alert("this site is empty")
 }
+
+alert("hello world");
